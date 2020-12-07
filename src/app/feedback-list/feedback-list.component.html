@@ -1,0 +1,7 @@
+<mat-card>
+  <mat-list>
+    <mat-list-item *ngFor="let entry of feedbackList; let i = index">
+      {{ i + 1 }}. Name: {{ entry.name }} <br>&nbsp;&nbsp;&nbsp;&nbsp; Feedback: {{ entry.score }}
+    </mat-list-item>
+  </mat-list>
+</mat-card>

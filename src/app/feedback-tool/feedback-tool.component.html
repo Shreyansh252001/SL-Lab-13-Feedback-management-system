@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-form-field appearance="outline">
+    <mat-label>Event Name</mat-label>
+    <input matInput [(ngModel)]="newtitle" />
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Feedback</mat-label>
+    <input matInput [(ngModel)]="newscore" />
+  </mat-form-field>
+  <br />
+  <button mat-raised-button color="primary" (click)="add()">
+    Submit Feedback
+  </button>
+</mat-card>
